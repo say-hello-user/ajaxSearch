@@ -1,7 +1,7 @@
 # ajaxSearch
 ajax+jsonp跨域搜索的实现
-## @author林剑敏
-## 静态内容的实现
+### @author林剑敏
+### 静态内容的实现
 ### 有一个居中背景图，图里嵌套一个logo加表单form
 ```html
 <body>
@@ -90,7 +90,7 @@ body {
   }
 ```
 
-```ajax部分解析
+### ajax部分解析
 $.ajax({
            type: "get",//请求方式
            async: false,//默认为true，默认情况为异步请求，同步请求改为false，我们这里暂且改为flase，让用户在请求完成后再进行下一步操作
@@ -107,4 +107,4 @@ $.ajax({
        });
 ```
 ### 实现的效果
-![image]()
+![image](https://github.com/say-hello-user/ajaxSearch/blob/master/image/main.png)
