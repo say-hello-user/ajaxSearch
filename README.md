@@ -91,6 +91,7 @@ body {
 ```
 
 ### ajax部分解析
+```javascript
 $.ajax({
            type: "get",//请求方式
            async: false,//默认为true，默认情况为异步请求，同步请求改为false，我们这里暂且改为flase，让用户在请求完成后再进行下一步操作
